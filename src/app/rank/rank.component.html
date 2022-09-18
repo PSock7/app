@@ -1,0 +1,33 @@
+<app-header></app-header>
+<div class="rank-container">
+  <div class="top">
+    <div class="left">
+      <div class="name">{{ rank.name }}</div>
+      <div class="rating">
+        <span class="rating-value">{{ rank.rating }}</span>
+      </div>
+      <div class="cover">
+        <img [src]="rank.cover" alt="" />
+      </div>
+    </div>
+    <div class="right">
+      <div class="rating-form">
+        <div class="form-group">
+          <label for="uname" style="text-decoration: underline"
+            >summonerLevel: </label
+          >&nbsp;<span>{{ rank.summonerLevel }}</span>
+        </div>
+        <div class="form-group"></div>
+      </div>
+      <div class="form-group">
+        <label
+          for="review"
+          style="text-decoration: underline; font-weight: bold"
+          >Description :
+        </label>
+        <span>{{ rank.description }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

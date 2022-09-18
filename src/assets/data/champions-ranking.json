@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Annie",
+    "summonerLevel": 6,
+    "title": "the Dark Child",
+    "cover": "/assets/images/tb.jpg",
+    "key": "Annie",
+    "description": "Removes all disables (excluding suppression and airborne) and summoner spell debuffs affecting your champion and lowers the duration of incoming disables by 65% for 3 seconds."
+  },
+  {
+    "id": 33,
+    "name": "Rammus",
+    "summonerLevel": 1,
+    "title": "the Armordillo",
+    "key": "Rammus",
+    "cover": "/assets/images/rammus.jpg",
+    "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!"
+  },
+  {
+    "id": 3,
+    "name": "Galio",
+    "summonerLevel": 4,
+    "title": "the Colossus",
+    "key": "Galio",
+    "cover": "/assets/images/galio.jpg",
+    "description": "Exhausts target enemy champion, reducing their Movement Speed by 30%, and their damage dealt by 40% for 2.5 seconds."
+  },
+  {
+    "id": 4,
+    "name": "Twisted Fate",
+    "summonerLevel": 8,
+    "title": "the Card Master",
+    "cover": "/assets/images/twisted.png",
+    "key": "TwistedFate",
+    "description": "Teleports your champion a short distance toward your cursor's location."
+  },
+  {
+    "id": 32,
+    "key": "Amumu",
+    "name": "Amumu",
+    "title": "the Sad Mummy",
+    "summonerLevel": 1,
+    "cover": "/assets/images/amumu.jpg",
+    "description": "Throw a snowball in a straight line at your enemies. If it hits an enemy, they become marked, granting True Sight, and your champion can quickly travel to the marked target as a follow up."
+  },
+  {
+    "id": 6,
+    "name": "Urgot",
+    "summonerLevel": 1,
+    "cover": "/assets/images/urgo.png",
+    "title": "the Dreadnought",
+    "key": "Urgot",
+    "description": "Your champion gains increased Movement Speed and can move through units for 10 seconds. Grants a maximum of 28-45% (depending on champion level) Movement Speed after accelerating for 2 seconds."
+  }
+]

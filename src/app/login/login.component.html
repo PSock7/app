@@ -1,0 +1,32 @@
+<div class="login-container">
+  <img class="film" src="assets/images/lol_logo.png" alt="" />
+  <!--div class="desc">
+      Welcome To our website! Here is a page dedicated to League of Legend Players
+      We will see the Best Champions of League of Legend Game So Login and join Us
+      Now!
+    </!--div-->
+  <div class="login-form">
+    <div class="form-group">
+      <label for="uname">Username</label>
+      &nbsp;<input
+        type="text"
+        name="uname"
+        class="form-control"
+        [(ngModel)]="username"
+      />
+    </div>
+    <div class="form-group">
+      <label for="pword">Password</label>
+      &nbsp;<input
+        type="password"
+        name="pword"
+        class="form-control"
+        [(ngModel)]="password"
+      />
+    </div>
+    <div class="btn-container">
+      <div class="error">{{ errorMsg }}</div>
+      <button class="btn btn-dark" (click)="login()">Join Us</button>
+    </div>
+  </div>
+</div>

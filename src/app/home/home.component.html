@@ -1,0 +1,63 @@
+<app-header></app-header>
+<div class="home-container">
+  <div class="all-ranks">
+    <div class="trending-ranks">
+      <div class="top">
+        <h4>All Champions</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="ranks-thumbnail">
+        <div class="rank" *ngFor="let rank of ChampionsRanking">
+          <div class="cover" (click)="goToMovie('trending', rank.id)">
+            <img [src]="rank.cover" alt="" />
+          </div>
+          <div class="detail">
+            <div class="name" (click)="goToMovie('trending', rank.id)">
+              {{ rank.name }}
+            </div>
+            <div class="key">
+              <mat-icon class="bass"> vpn_key</mat-icon>
+              <span class="key-value">{{ rank.title }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-rank">
+      <div class="top">
+        <h4>Best Champions Rating</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="ranks-thumbnail">
+        <div class="rank" *ngFor="let rank of TopRanks">
+          <div class="cover" (click)="goToMovie('theatre', rank.id)">
+            <img [src]="rank.cover" alt="" />
+          </div>
+          <div class="detail">
+            <div class="name" (click)="goToMovie('theatre', rank.id)">
+              {{ rank.name }}
+            </div>
+            <div class="key">
+              <mat-icon class="bass"> vpn_key</mat-icon>
+              <span class="key-value">{{ rank.title }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popular-ranks">
+    <h4>Popular Champions</h4>
+    <div class="ranks">
+      <div class="rank" *ngFor="let rank of PopularChamp">
+        <div class="name" (click)="goToMovie('popular', rank.id)">
+          {{ rank.name }}
+        </div>
+        <div class="key">
+          <span class="key-value">{{ rank.title }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

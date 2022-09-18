@@ -1,0 +1,70 @@
+$blue: #005a82;
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/images/backg.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .logo {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Creepster", cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  .desc {
+    font-family: system-ui;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    text-align: right;
+    width: 1200px;
+    color: white;
+  }
+  .film {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 158px;
+  }
+  .login-form {
+    opacity: 0.8;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: #005a82;
+    // background-color: #f44336;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+    top: 300px;
+    right: 38%;
+
+    box-shadow: 5px 5px 20px #383838;
+    .form-group {
+      margin-top: 20px;
+      color: #f44336;
+    }
+    label {
+      font-weight: bold;
+    }
+    .btn-container {
+      position: relative;
+      .btn {
+        margin-top: 30px;
+        border-radius: 10px;
+        color: #f44336;
+      }
+      .error {
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        color: red;
+      }
+    }
+  }
+}

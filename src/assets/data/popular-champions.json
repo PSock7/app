@@ -1,0 +1,56 @@
+[
+  {
+    "id": 7,
+    "summonerLevel": 1,
+    "name": "LeBlanc",
+    "key": "Leblanc",
+    "cover": "/assets/images/Leblanc.jpg",
+    "title": "the Deceiver",
+    "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal."
+  },
+  {
+    "id": 35,
+    "name": "Shaco",
+    "summonerLevel": 1,
+    "key": "Shaco",
+    "cover": "/assets/images/shaco.jpg",
+    "title": "the Demon Jester",
+    "description": "Summoner spells are disabled in this mode."
+  },
+  {
+    "id": 13,
+    "summonerLevel": 1,
+    "name": "Fiddlesticks",
+    "key": "Fiddlesticks",
+    "cover": "/assets/images/Fiddlesticks.jpg",
+    "title": "the Harbinger of Doom",
+    "description": "Restores 50% of your champion's maximum Mana. Also restores allies for 25% of their maximum Mana."
+  },
+  {
+    "id": 14,
+    "summonerLevel": 10,
+    "name": "Sion",
+    "key": "Sion",
+    "cover": "/assets/images/sion.jpg",
+    "title": "The Undead Juggernaut",
+    "description": "Ignites target enemy champion, dealing 70-410 true damage (depending on champion level) over 5 seconds, grants you vision of the target, and reduces healing effects on them for the duration."
+  },
+  {
+    "id": 11,
+    "summonerLevel": 10,
+    "name": "Master Yi",
+    "title": "the Wuju Bladesman",
+    "key": "MasterYi",
+    "cover": "/assets/images/master.png",
+    "description": "Deals 390-1000 true damage (depending on champion level) to target epic, large, or medium monster or enemy minion. Restores Health based on your maximum life when used against monsters."
+  },
+  {
+    "id": 12,
+    "summonerLevel": 6,
+    "name": "Alistar",
+    "cover": "/assets/images/alistar.jpg",
+    "key": "Alistar",
+    "title": "the Minotaur",
+    "description": "After channeling for 4.5 seconds, teleports your champion to target allied structure, minion, or ward."
+  }
+]
